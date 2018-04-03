@@ -29,7 +29,7 @@
         font-size: 24px;
       }
       p {
-        font-size: 24px;      
+        font-size: 24px;
       }
     </style>
 </head>
@@ -65,6 +65,7 @@
 
     <h1>TABLE</h1>
     <table class="alt">
+      <caption>LAST WEEK'S GAME</caption>
     <tr>
         <th rowspan="2">Teams</th>
         <th colspan="2">First Half</th>
@@ -93,11 +94,18 @@
         <td>10</td>
         <td>10</td>
     </tr>
+    <footer>
+  <p>Posted by: John Cleese<br>
+  Contact information: <a href="mailto:idontcare@whyareyoustillreading.com">
+  someone@example.com</a>.</p>
+</footer>
   </table>
   <img src="huskbeaver.jpg">
     <h1>LIST</h1>
   <ul>
-    <li><img src="huskbeaver.jpg"><br>Terre Haute Huskbeavers<ul>
+    <li><img src="huskbeaver.jpg"><br>
+      <a href="http://corncorps.com/2016/01/14/5-things-about-this-photo-an-illinois-landscape/cornfield-background/">Terre Haute Huskbeavers&#x000A9;</a>
+      <ul>
       <li>Coach: Robin Williams</li>
       <li>Top Players:<ul>
         <li>Jesse Owens</li>
@@ -105,7 +113,9 @@
         <li>Eddie Murphy</li>
       </ul></li>
     </ul></li>
-    <li><img src="huskbeaver.jpg"><br>Baton Rouge Gumboslurpers<ul>
+    <li><img src="huskbeaver.jpg"><br>
+      <a href="http://www.geniuskitchen.com/recipe/gumbo-32042">Baton Rouge Gumboslurpers&#x000A9;</a>
+      <ul>
       <li>Coach: Tennessee Williams</li>
       <li>Top Players:<ul>
         <li>Hulk Hogan</li>
@@ -114,6 +124,37 @@
       </ul></li>
   </ul>
 </ul>
-    <h1>FORM</h1>
+  <h1>FORM</h1>
+  <form style="font-size:24px;" action="https://www.nfl.com/" method="get">
+  First name: <input type="text" name="firstname" value="">
+   Last name: <input type="text" name="lastname" value=""><br>
+   Date of Birth: <input type="date" name="dateofbirth" value=""><br>
+  Age: <input type="number" name="age"><br>
+  <br>
+  Which level do you currently play?<br>
+  <input type="radio" name="lunch" value="pasta"> Amateur<br>
+  <input type="radio" name="lunch" value="risotto"> College<br>
+  <input type="radio" name="lunch" value="risotto"> National<br>
+  <input type="radio" name="lunch" value="risotto"> Retired<br>
+  <br>
+  Select your sport: <select>
+      <option value="sydney">Huskball</option>
+      <option value="melbourne">Football</option>
+      <option value="queenstown">Queenstown Football</option>
+      <option value="queenstown">I Am Not Sure That Is Football</option>
+      <option value="queenstown">Not Football (Soccer)</option>
+      <option value="queenstown">Squareball</option>
+  </select><br>
+  <br>
+  What is your level of commitment to this sport?<br>
+  <input type="checkbox" name="commitment" value="Interested"> Interested<br>
+  <input type="checkbox" name="commitment" value="Like"> Like<br>
+  <input type="checkbox" name="commitment" value="Love"> Love<br>
+  <input type="checkbox" name="commitment" value="Bleed" onclick="alert('A die hard fan I see!');"> I BLEED THIS SPORT!<br>
+  <br>
+  Any additional comments for us?<br>
+  <textarea maxlength="100" rows="5" cols="30">Enter comments here.</textarea><br>
+  <input type="submit">
+</form>
   </body>
 </html>
