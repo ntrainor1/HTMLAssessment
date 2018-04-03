@@ -10,14 +10,14 @@ Under the third header are two lists that incorporate links and images for the t
 Under the last header are various aspects of interactivity for the user, such as radio buttons, submit buttons, and select drop menu, including an alert feature for die hard fans.
 
 ## Technologies Used
-  Tables
-  Image Source
-  Radio Buttons
-  Select
-  Nested Lists
-  Headers
-  em and strong
-  Style
+  Tables - 
+  Image Source -
+  Radio Buttons -
+  Select -
+  Nested Lists -
+  Headers -
+  em and strong -
+  Style -
   Alerts
 
 ## Lessons Learned
