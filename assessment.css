@@ -34,8 +34,8 @@ ul#teamRoster > li:first-child {
   background-size: 40px;
 }
 
-ul#teamRoster > li:first-child > background-image {
-  opacity: 0.5;
+ul#teamRoster > li:first-child > ul > li:nth-child(2) > ol > li:first-child {
+  font-weight: bold;
 }
 
 ul#teamRoster > li:first-child > img{
@@ -46,6 +46,10 @@ ul#teamRoster > li:last-child {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg");
   background-color: rgba(250, 50, 0, 0.2);
   background-size: 40px;
+}
+
+ul#teamRoster > li:last-child > ul > li:nth-child(2) > ol > li:first-child {
+  font-weight: bold;
 }
 
 ul#teamRoster > li:last-child > img{
